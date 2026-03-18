@@ -1,7 +1,7 @@
-import {Player} from '../assets/classes/player.js'
-import {Enemy} from '../assets/classes/enemy.js'
-import {Platform} from '../assets/classes/platform.js'
-import {Cube} from '../assets/classes/cube.js'
+import {Player} from 'assets/classes/player.js'
+import {Enemy} from 'assets/classes/enemy.js'
+import {Platform} from 'assets/classes/platform.js'
+import {Cube} from 'assets/classes/cube.js'
 
 
 export default class mainScene extends Phaser.Scene{
@@ -26,49 +26,49 @@ export default class mainScene extends Phaser.Scene{
     }
 
     preload(){
-        this.load.audio('musicG', '../assets/music/AmbientSpaceGame.mp3');
+        this.load.audio('musicG', 'assets/music/AmbientSpaceGame.mp3');
 
-        this.load.image('bgGame', '../assets/background/bgGame.png')
+        this.load.image('bgGame', 'assets/background/bgGame.png')
 
-        this.load.image('platform', '../assets/platforms/platform.png')
-        this.load.image('cube', '../assets/platforms/cube.png')
-        this.load.image('cubeR', '../assets/platforms/cubeR.png')
+        this.load.image('platform', 'assets/platforms/platform.png')
+        this.load.image('cube', 'assets/platforms/cube.png')
+        this.load.image('cubeR', 'assets/platforms/cubeR.png')
 
-        this.load.image('GameOver', '../assets/buttons/GameOver.png')
+        this.load.image('GameOver', 'assets/buttons/GameOver.png')
 
-        this.load.spritesheet('enemy', '../assets/player/enemy.png', {
+        this.load.spritesheet('enemy', 'assets/player/enemy.png', {
             frameWidth: 32, 
             frameHeight: 25
         })
 
-        this.load.spritesheet('playerJR', '../assets/player/LOXjmpR.png', {
+        this.load.spritesheet('playerJR', 'assets/player/LOXjmpR.png', {
             frameWidth: 120, 
             frameHeight: 188
         })
-        this.load.spritesheet('playerJL', '../assets/player/LOXjmpL.png', {
+        this.load.spritesheet('playerJL', 'assets/player/LOXjmpL.png', {
             frameWidth: 120, 
             frameHeight: 188
         })
 
-        this.load.spritesheet('btnMusicOn', '../assets/buttons/btnMusicOn.png', {
+        this.load.spritesheet('btnMusicOn', 'assets/buttons/btnMusicOn.png', {
             frameWidth: 101, 
             frameHeight: 100,
         });
-        this.load.spritesheet('btnMusicOff', '../assets/buttons/btnMusicOff.png', {
+        this.load.spritesheet('btnMusicOff', 'assets/buttons/btnMusicOff.png', {
             frameWidth: 101, 
             frameHeight: 100,
         });
 
-        this.load.spritesheet('btnPauseOn', '../assets/buttons/btnPauseOn.png', {
+        this.load.spritesheet('btnPauseOn', 'assets/buttons/btnPauseOn.png', {
             frameWidth: 101, 
             frameHeight: 100,
         })
-        this.load.spritesheet('btnPauseOff', '../assets/buttons/btnPauseOff.png', {
+        this.load.spritesheet('btnPauseOff', 'assets/buttons/btnPauseOff.png', {
             frameWidth: 101, 
             frameHeight: 100,
         })
 
-        this.load.spritesheet('btnGo', '../assets/buttons/btnGo.png', {
+        this.load.spritesheet('btnGo', 'assets/buttons/btnGo.png', {
             frameWidth: 101, 
             frameHeight: 100,
         })
