@@ -1,0 +1,35 @@
+// уровень 1
+        this.cubes.create(325, 200, 'cube'); //одиночная посередине4
+        // уровень 2
+        this.cubes.create(295, 245, 'cube'); // слева снизу от середины
+        this.cubes.create(355, 245, 'cube'); // справа снизу от середины
+        // уровень 3
+        this.cubes.create(265, 290, 'cube'); // слева от середины
+        this.cubes.create(325, 290, 'cube'); // одиночная посередине
+        this.cubes.create(385, 290, 'cube'); // справа от середины
+        // уровень 4
+        this.cubes.create(235, 335, 'cube'); // слева снизу от середины
+        this.cubes.create(295, 335, 'cube'); // слева снизу от середины
+        this.cubes.create(355, 335, 'cube'); // справа снизу от середины
+        this.cubes.create(415, 335, 'cube'); // справа снизу от середины
+        // уровень 5
+        this.cubes.create(205, 380, 'cube'); // слева от слева
+        this.cubes.create(265, 380, 'cube'); // слева от середины
+        this.cubes.create(325, 380, 'cube'); // одиночная посередине
+        this.cubes.create(385, 380, 'cube'); // справа от середины
+        this.cubes.create(445, 380, 'cube'); // справа от справа
+        // уровень 6  
+        this.cubes.create(175, 425, 'cube'); // слева снизу от середины и слева от слева
+        this.cubes.create(235, 425, 'cube'); // слева снизу от середины и слева    
+        this.cubes.create(295, 425, 'cube'); // слева снизу от середины
+        this.cubes.create(355, 425, 'cube'); // справа снизу от середины
+        this.cubes.create(415, 425, 'cube'); // справа снизу от середины и справа
+        this.cubes.create(475, 425, 'cube'); // справа снизу от середины и справа от справа
+        // уровень 7
+        this.cubes.create(145, 470, 'cube'); // боковой нижний слева
+        this.cubes.create(205, 470, 'cube'); // слева от слева
+        this.cubes.create(265, 470, 'cube'); // слева от середины
+        this.cubes.create(325, 470, 'cube'); // одиночная посередине
+        this.cubes.create(385, 470, 'cube'); // справа от середины
+        this.cubes.create(445, 470, 'cube'); // справа от справа
+        this.cubes.create(505, 470, 'cube'); // боковой нижний справа
