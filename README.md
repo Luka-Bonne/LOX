@@ -14,16 +14,18 @@ LOX - это игра-аналог старой аркадной игры Q*bert
 
 Задеплоить нормально на гите приложение не получилось, поэтому просто покажу картинками:
 1. Начальный экран
+   
    <img width="648" height="647" alt="6" src="https://github.com/user-attachments/assets/4d7e3117-39f8-44e2-8864-06a2030408dd" />
 2. Старт уровня
+   
    <img width="646" height="647" alt="7" src="https://github.com/user-attachments/assets/c8281264-c5c5-461a-b76d-265a74330746" />
-3. Момент с покрасом кубов
+4. Момент с покрасом кубов
    <img width="646" height="647" alt="7" src="https://github.com/user-attachments/assets/9f1f5320-cdd0-4fd7-8270-4b392b8421f3" />
    Если вернуться на закрашенный куб
    <img width="646" height="646" alt="9" src="https://github.com/user-attachments/assets/847b88b4-e552-48a1-88ca-254b0b85e50e" />
-4. Мобы слизняки в игре
+5. Мобы слизняки в игре
    <img width="648" height="647" alt="10" src="https://github.com/user-attachments/assets/960cc340-1e39-4a75-b87b-1eb84b390362" />
-5. Конец игры при проигрыше
+6. Конец игры при проигрыше
    <img width="648" height="648" alt="11" src="https://github.com/user-attachments/assets/5c154e9b-9c5e-4d5d-8e84-6c6750b4dfd1" />
-6. Конец игры при выигрыше
+7. Конец игры при выигрыше
    <img width="648" height="648" alt="12" src="https://github.com/user-attachments/assets/565961d8-fd54-4468-a8c7-dc18224b7dc1" />
