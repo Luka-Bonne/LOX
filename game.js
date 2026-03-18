@@ -1,5 +1,5 @@
-import mainScene from "./scenes/mainScene.js"
-import loadingScene from "./scenes/loadingScene.js"
+import mainScene from "scenes/mainScene.js"
+import loadingScene from "scenes/loadingScene.js"
 
 
 const config = {
