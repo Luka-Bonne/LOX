@@ -10,33 +10,33 @@ export default class loadingScene extends Phaser.Scene{
     }
 
     preload(){
-        this.load.audio('musicL', '../assets/music/AmbientSpaceLoading.mp3');
+        this.load.audio('musicL', 'assets/music/AmbientSpaceLoading.mp3');
 
-        this.load.image('bgStart', '../assets/background/bgStart.png');
+        this.load.image('bgStart', 'assets/background/bgStart.png');
 
-        this.load.spritesheet('btnStart', '../assets/buttons/btnStart.png', {
+        this.load.spritesheet('btnStart', 'assets/buttons/btnStart.png', {
             frameWidth: 128, 
             frameHeight: 37,
         });
-        this.load.spritesheet('btnMusicOn', '../assets/buttons/btnMusicOn.png', {
+        this.load.spritesheet('btnMusicOn', 'assets/buttons/btnMusicOn.png', {
             frameWidth: 101, 
             frameHeight: 100,
         });
-        this.load.spritesheet('btnMusicOff', '../assets/buttons/btnMusicOff.png', {
+        this.load.spritesheet('btnMusicOff', 'assets/buttons/btnMusicOff.png', {
             frameWidth: 101, 
             frameHeight: 100,
         });
-        this.load.spritesheet('btnAD', '../assets/buttons/btnAD.png', {
+        this.load.spritesheet('btnAD', 'assets/buttons/btnAD.png', {
             frameWidth: 50, 
             frameHeight: 45,
         });
-        this.load.spritesheet('btnSW', '../assets/buttons/btnSW.png', {
+        this.load.spritesheet('btnSW', 'assets/buttons/btnSW.png', {
             frameWidth: 50, 
             frameHeight: 45,
         });
 
 
-        this.load.spritesheet('btnGo', '../assets/buttons/btnGo.png', {
+        this.load.spritesheet('btnGo', 'assets/buttons/btnGo.png', {
             frameWidth: 101, 
             frameHeight: 100,
         });
